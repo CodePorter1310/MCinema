@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C67FF82E1C7700C00069C2D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C67FF82D1C7700C00069C2D8 /* main.m */; };
+		C67FF8311C7700C00069C2D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C67FF8301C7700C00069C2D8 /* AppDelegate.m */; };
+		C67FF8341C7700C00069C2D8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C67FF8331C7700C00069C2D8 /* ViewController.m */; };
+		C67FF8371C7700C00069C2D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C67FF8351C7700C00069C2D8 /* Main.storyboard */; };
+		C67FF8391C7700C00069C2D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C67FF8381C7700C00069C2D8 /* Assets.xcassets */; };
+		C67FF83C1C7700C00069C2D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C67FF83A1C7700C00069C2D8 /* LaunchScreen.storyboard */; };
+		C67FF8471C7700C00069C2D8 /* MCinemaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C67FF8461C7700C00069C2D8 /* MCinemaTests.m */; };
+		C67FF8521C7700C00069C2D8 /* MCinemaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C67FF8511C7700C00069C2D8 /* MCinemaUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C67FF8431C7700C00069C2D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C67FF8211C7700C00069C2D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C67FF8281C7700C00069C2D8;
+			remoteInfo = MCinema;
+		};
+		C67FF84E1C7700C00069C2D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C67FF8211C7700C00069C2D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C67FF8281C7700C00069C2D8;
+			remoteInfo = MCinema;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C67FF8291C7700C00069C2D8 /* MCinema.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MCinema.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C67FF82D1C7700C00069C2D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C67FF82F1C7700C00069C2D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C67FF8301C7700C00069C2D8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C67FF8321C7700C00069C2D8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C67FF8331C7700C00069C2D8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C67FF8361C7700C00069C2D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C67FF8381C7700C00069C2D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C67FF83B1C7700C00069C2D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C67FF83D1C7700C00069C2D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C67FF8421C7700C00069C2D8 /* MCinemaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MCinemaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C67FF8461C7700C00069C2D8 /* MCinemaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCinemaTests.m; sourceTree = "<group>"; };
+		C67FF8481C7700C00069C2D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C67FF84D1C7700C00069C2D8 /* MCinemaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MCinemaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C67FF8511C7700C00069C2D8 /* MCinemaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCinemaUITests.m; sourceTree = "<group>"; };
+		C67FF8531C7700C00069C2D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C67FF8261C7700C00069C2D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C67FF83F1C7700C00069C2D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C67FF84A1C7700C00069C2D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C67FF8201C7700C00069C2D8 = {
+			isa = PBXGroup;
+			children = (
+				C67FF82B1C7700C00069C2D8 /* MCinema */,
+				C67FF8451C7700C00069C2D8 /* MCinemaTests */,
+				C67FF8501C7700C00069C2D8 /* MCinemaUITests */,
+				C67FF82A1C7700C00069C2D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C67FF82A1C7700C00069C2D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C67FF8291C7700C00069C2D8 /* MCinema.app */,
+				C67FF8421C7700C00069C2D8 /* MCinemaTests.xctest */,
+				C67FF84D1C7700C00069C2D8 /* MCinemaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C67FF82B1C7700C00069C2D8 /* MCinema */ = {
+			isa = PBXGroup;
+			children = (
+				C67FF82F1C7700C00069C2D8 /* AppDelegate.h */,
+				C67FF8301C7700C00069C2D8 /* AppDelegate.m */,
+				C67FF8321C7700C00069C2D8 /* ViewController.h */,
+				C67FF8331C7700C00069C2D8 /* ViewController.m */,
+				C67FF8351C7700C00069C2D8 /* Main.storyboard */,
+				C67FF8381C7700C00069C2D8 /* Assets.xcassets */,
+				C67FF83A1C7700C00069C2D8 /* LaunchScreen.storyboard */,
+				C67FF83D1C7700C00069C2D8 /* Info.plist */,
+				C67FF82C1C7700C00069C2D8 /* Supporting Files */,
+			);
+			path = MCinema;
+			sourceTree = "<group>";
+		};
+		C67FF82C1C7700C00069C2D8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C67FF82D1C7700C00069C2D8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C67FF8451C7700C00069C2D8 /* MCinemaTests */ = {
+			isa = PBXGroup;
+			children = (
+				C67FF8461C7700C00069C2D8 /* MCinemaTests.m */,
+				C67FF8481C7700C00069C2D8 /* Info.plist */,
+			);
+			path = MCinemaTests;
+			sourceTree = "<group>";
+		};
+		C67FF8501C7700C00069C2D8 /* MCinemaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C67FF8511C7700C00069C2D8 /* MCinemaUITests.m */,
+				C67FF8531C7700C00069C2D8 /* Info.plist */,
+			);
+			path = MCinemaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C67FF8281C7700C00069C2D8 /* MCinema */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C67FF8561C7700C00069C2D8 /* Build configuration list for PBXNativeTarget "MCinema" */;
+			buildPhases = (
+				C67FF8251C7700C00069C2D8 /* Sources */,
+				C67FF8261C7700C00069C2D8 /* Frameworks */,
+				C67FF8271C7700C00069C2D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MCinema;
+			productName = MCinema;
+			productReference = C67FF8291C7700C00069C2D8 /* MCinema.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C67FF8411C7700C00069C2D8 /* MCinemaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C67FF8591C7700C00069C2D8 /* Build configuration list for PBXNativeTarget "MCinemaTests" */;
+			buildPhases = (
+				C67FF83E1C7700C00069C2D8 /* Sources */,
+				C67FF83F1C7700C00069C2D8 /* Frameworks */,
+				C67FF8401C7700C00069C2D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C67FF8441C7700C00069C2D8 /* PBXTargetDependency */,
+			);
+			name = MCinemaTests;
+			productName = MCinemaTests;
+			productReference = C67FF8421C7700C00069C2D8 /* MCinemaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C67FF84C1C7700C00069C2D8 /* MCinemaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C67FF85C1C7700C00069C2D8 /* Build configuration list for PBXNativeTarget "MCinemaUITests" */;
+			buildPhases = (
+				C67FF8491C7700C00069C2D8 /* Sources */,
+				C67FF84A1C7700C00069C2D8 /* Frameworks */,
+				C67FF84B1C7700C00069C2D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C67FF84F1C7700C00069C2D8 /* PBXTargetDependency */,
+			);
+			name = MCinemaUITests;
+			productName = MCinemaUITests;
+			productReference = C67FF84D1C7700C00069C2D8 /* MCinemaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C67FF8211C7700C00069C2D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = MN;
+				TargetAttributes = {
+					C67FF8281C7700C00069C2D8 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					C67FF8411C7700C00069C2D8 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = C67FF8281C7700C00069C2D8;
+					};
+					C67FF84C1C7700C00069C2D8 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = C67FF8281C7700C00069C2D8;
+					};
+				};
+			};
+			buildConfigurationList = C67FF8241C7700C00069C2D8 /* Build configuration list for PBXProject "MCinema" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C67FF8201C7700C00069C2D8;
+			productRefGroup = C67FF82A1C7700C00069C2D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C67FF8281C7700C00069C2D8 /* MCinema */,
+				C67FF8411C7700C00069C2D8 /* MCinemaTests */,
+				C67FF84C1C7700C00069C2D8 /* MCinemaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C67FF8271C7700C00069C2D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C67FF83C1C7700C00069C2D8 /* LaunchScreen.storyboard in Resources */,
+				C67FF8391C7700C00069C2D8 /* Assets.xcassets in Resources */,
+				C67FF8371C7700C00069C2D8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C67FF8401C7700C00069C2D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C67FF84B1C7700C00069C2D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C67FF8251C7700C00069C2D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C67FF8341C7700C00069C2D8 /* ViewController.m in Sources */,
+				C67FF8311C7700C00069C2D8 /* AppDelegate.m in Sources */,
+				C67FF82E1C7700C00069C2D8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C67FF83E1C7700C00069C2D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C67FF8471C7700C00069C2D8 /* MCinemaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C67FF8491C7700C00069C2D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C67FF8521C7700C00069C2D8 /* MCinemaUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C67FF8441C7700C00069C2D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C67FF8281C7700C00069C2D8 /* MCinema */;
+			targetProxy = C67FF8431C7700C00069C2D8 /* PBXContainerItemProxy */;
+		};
+		C67FF84F1C7700C00069C2D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C67FF8281C7700C00069C2D8 /* MCinema */;
+			targetProxy = C67FF84E1C7700C00069C2D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C67FF8351C7700C00069C2D8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C67FF8361C7700C00069C2D8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C67FF83A1C7700C00069C2D8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C67FF83B1C7700C00069C2D8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C67FF8541C7700C00069C2D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C67FF8551C7700C00069C2D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C67FF8571C7700C00069C2D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MCinema/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mn.MCinema;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C67FF8581C7700C00069C2D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MCinema/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mn.MCinema;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C67FF85A1C7700C00069C2D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MCinemaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mn.MCinemaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MCinema.app/MCinema";
+			};
+			name = Debug;
+		};
+		C67FF85B1C7700C00069C2D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MCinemaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mn.MCinemaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MCinema.app/MCinema";
+			};
+			name = Release;
+		};
+		C67FF85D1C7700C00069C2D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MCinemaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mn.MCinemaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MCinema;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C67FF85E1C7700C00069C2D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MCinemaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mn.MCinemaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MCinema;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C67FF8241C7700C00069C2D8 /* Build configuration list for PBXProject "MCinema" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C67FF8541C7700C00069C2D8 /* Debug */,
+				C67FF8551C7700C00069C2D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C67FF8561C7700C00069C2D8 /* Build configuration list for PBXNativeTarget "MCinema" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C67FF8571C7700C00069C2D8 /* Debug */,
+				C67FF8581C7700C00069C2D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C67FF8591C7700C00069C2D8 /* Build configuration list for PBXNativeTarget "MCinemaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C67FF85A1C7700C00069C2D8 /* Debug */,
+				C67FF85B1C7700C00069C2D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C67FF85C1C7700C00069C2D8 /* Build configuration list for PBXNativeTarget "MCinemaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C67FF85D1C7700C00069C2D8 /* Debug */,
+				C67FF85E1C7700C00069C2D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C67FF8211C7700C00069C2D8 /* Project object */;
+}
